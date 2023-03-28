@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: 'Sriracha', cursive;
+}
+
+
+body, html {
+    background-color: rgb(155, 155, 247);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+header > p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover , footer a:hover {
+    text-decoration: underline;
+}
+
+.normal {
+    background-color: white;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte1);
+    font-size: 1.4em;
+}
+
+.imagem {
+    background-color: gray;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    width: 450px;
+    padding: 10px;
+}
+
+#img01 {
+    background-image: url(../imagens/background001.webp);
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: bottom right;
+}
+
+aside {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+aside  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+aside p {
+    padding: 5px;
+}
+
+#biografia {
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+}
+
+aside > img {
+    max-width: 300px;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+
